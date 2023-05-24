@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>EmpoderaTI</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="image/Logo pequena.svg" alt="">
+
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__item">
+            <button class="navbar__action active" data-scroll-to="inicio">Início</button>
+        </li>
+        <li class="navbar__item">
+            <button class="navbar__action" data-scroll-to="funcionalidades">Funcionalidades</button>
+        </li>
+        <li class="navbar__item">
+            <button class="navbar__action" data-scroll-to="oportunidade">Oportunidades</button>
+        </li>
+        <li class="navbar__item">
+            <button class="navbar__action" data-scroll-to="sobreNos">Sobre nós</button>
+        </li>
+        <li class="navbar__item">
+            <button class="navbar__action" data-scroll-to="faq">FAQ</button>
+        </li>
+    </ul>
+    </nav>
+    <div class="menu-toggle">
+      <div class="hamburger"></div>
+    </div>
+          <div>
+              <button id="#logar" class="singIn">Entrar</button>
+              <button id="#logar" class="singUp">Criar conta</button>
+            </div>
+</header>
+
+<!-- <div class="spacer"></div> -->
+
+<main>
+    <section class="section inicio" data-scroll="inicio">
+      <section class="section inicio" data-scroll="inicio">
+        <h1 class="title-col">Por mais mulheres</h1>
+            <div id="slidestxt">
+              <div>
+                <h1>conectadas.</h1>
+              </div>
+              <div>
+                <h1>capacitadas.</h1>
+              </div>
+              <div>
+                <h1>empregadas.</h1>
+              </div>
+              <div>
+                <h1>na tecnologia.</h1>
+              </div>
+            </div>
+          </h1>
+           <p class="subtitle">
+            Juntas, vamos incluir, capacitar e<br />inspirar mulheres que estão
+            no<br />mercado da tecnologia ou desejam<br />ingressar nele.
+          </p>
+          <div>
+            <button class="cadastrar">Cadastre-se</button>
+          </div> 
+        <img class="gradient" src="image/Vector.svg" alt=""> 
+         <img class="ilustracao1" src="image/header.png" alt="" />
+    </section>
+
+    <section class="section funcionalidades" data-scroll="funcionalidades">
+      <div>
+        <h2>Conheça nossa plataforma.</h2>
+      </div> 
+        <p class="subtitle2">
+          Oferecemos um espaço seguro para todas as mulheres apaixonadas por
+          tecnologia.<br />
+          Venha fazer parte dessa comunidade, procure oportunidades de emprego
+          e estudos, <br />
+          troque ideias com outras mulheres, e o mais importante: divirta-se!
+        </p> 
+      
+
+       <div class="cards">
+        <article class="card">
+          <img src="image/cursos.png" alt="" />
+          <h3>Cursos</h3>
+          <span
+            >Acesse nossos cursos e estude de onde e na hora que quiser. Do
+            inciante ao avançado.</span>
+        </article>
+        <article class="card">
+          <img src="image/emprego.png" alt="" />
+          <h3>Vagas</h3>
+          <span
+            >Navegue por nossa plataforma e encontre as melhores oportunidades
+            de emprego para sua área.</span
+          >
+        </article>
+        <article class="card">
+          <img
+            src="image/networking.png"
+            alt=""
+            width="200px"
+            height="200px"
+          />
+          <h3>Conexões</h3>
+          <span
+            >Aumente seu network se conectando com outras mulheres da área, se
+            ajudando e trocando experiências.</span
+          >
+        </article>
+        <article class="card">
+          <img src="image/mentorias.png" width="200px" height="200px" alt="" />
+          <h3>Mentotiras</h3>
+          <span
+            >Aperfeiçoe suas soft e hard skills através de mentorias com
+            mulheres experientes no assunto.</span
+          >
+        </article>
+      </div>
+      <div class="container">
+        <button class="cadastrar2">Quero me cadastrar!</button>
+      </div>
+</section>
+
+    <section class="section oportunidade" data-scroll="oportunidade">
+      
+       <div class="descricao">
+          <h2>Sua oportunidade está aqui!</h2>
+          <img src="image/body.png" alt="" />
+          <h3>
+            Encontre sua vaga de emprego, <br />
+            curso ou mentora e complemente <br />
+            suas habilidades para trabalhar na <br />
+            área da tecnologia.
+          </h3>
+          <span>Acreditamos que as mulheres têm um papel</span>
+          <span>crucial no mundo da tecnologia. Se você está à</span>
+          <span>procura de mostrar seus talentos ou melhorar suas </span>
+          <span>habilidades em áreas como Programação,</span>
+          <span>Desenvolvimento Web, Design UX/UI, Análise de </span>
+          <span>Dados, entre outras, você chegou ao lugar certo!</span>
+          <div class="container">
+            <button class="btn">Quero melhorar minhas habilidades</button>
+          </div>
+        </div> 
+    </section>
+
+    <section class="section sobreNos" data-scroll="sobreNos">
+      <div class="video">
+        <h2>Sobre nós</h2>
+        <video src="image/sobrenos.mp4" controls></video>
+      </div>
+    </section>
+    <section class="section faq" data-scroll="faq">
+      <div class="faq">
+        <h2>Perguntas frequentes (FAQ)</h2>
+         <button class="accordion">Quem pode utilizar o EmpoderaTI?</button>
+        <div class="panel">
+          <p>
+              Qualquer pessoa que se identifica como mulher e atua ou deseja atuar no mercado de tecnologia pode utilizar o EmpoderaTI.
+          </p>
+        </div>
+
+        <button class="accordion">Quais recursos estão disponíveis no site?</button>
+        <div class="panel">
+          <p>
+              No EmpoderaTI é possível encontrar vagas de emprego, cursos profissionalizantes, pessoas disponíveis para dar mentorias, e um feed social que dá a possibilidade de trocar ideias e interagir com outras mulheres que estão no mercado de tecnologia, podendo se conectar, curtir e comentar postagens.
+          </p>
+        </div>
+
+        <button class="accordion">Eu preciso estar trabalhando em uma área da tecnologia para utilizar o EmpoderaTI?</button>
+        <div class="panel">
+          <p>
+              Não, você não precisa estar trabalhando. Para utilizar o EmpoderaTI, ter interesse em trabalhar com tecnologia já é o suficiente. Dentro da plataforma há oportunidades para pessoas em qualquer estágio da carreira.
+          </p>
+        </div>
+        <button class="accordion">Como eu posso entrar em contato com alguém da equipe do EmpoderaTI?</button>
+        <div class="panel">
+          <p>
+              Você pode entrar em contato através do Suporte. Para isso, na sua conta, basta ir em “Suporte” e preencher o formulário com a sua solicitação.
+          </p>
+        </div>
+        <img src="image/Service 24_7-rafiki (1) 1.svg" alt="ilustracao2" />
+    </section>
+</main>
+
+ <!-- <footer class="footer">
+        <div>
+            <img src="image/Logo 2.svg">
+            <p>Rua Ana Santesso, 2013, <br>
+              Jardim São José (São Mateus), <br>
+              São Paulo - SP.  CEP: 03931-030. <br>
+              CNPJ: 32.638.149/0001-70 </p>
+              <p>Copyright © 2023 EmpoderaTI</p>
+        </div>
+        <div>
+          <ul>
+              <li id="sobreNos">Sobre nós</li>
+              <li>A empresa</li>
+              <li>A equipe</li>
+              <li>Nossa missão</li>
+          </ul>
+      </div>
+        <div>
+            <ul>
+                <li id="institucional">Institucional</li>
+                <li>Termos de uso</li>
+                <li>Política de reembolso</li>
+                <li>Acessibilidade</li>
+            </ul>
+        </div>
+        <div class="redeSocial">
+            <ul>
+                <li id="faleConosco">Fale conosco</li>
+                <li>Suporte</li>
+                <img src="image/Icon twitter.svg" alt="" width="32px" height="32px">
+                <img src="image/Icon telegram.svg" alt=""  width="32px" height="32px">
+                <img src="image/Icon linkedin.svg" alt=""  width="32px" height="32px">
+            </ul>
+        </div>
+    </footer> -->
+<script src="script.js"></script>
+</body>
+</html>
