@@ -7,9 +7,10 @@
   --header-height: 80px;
 }
 
-body {
+* {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* Header */
@@ -134,7 +135,7 @@ body {
 
 .section {
   width: 100%;
-  height: 85vh;
+  height: 90vh;
 }
 
 .inicio {
@@ -150,7 +151,7 @@ body {
 
 .ilustracao1 {
   width: 30%;
-  bottom: 42rem;
+  bottom: 32rem;
   margin-left: 80rem;
   /* float: right; */
   position: relative;
@@ -162,7 +163,7 @@ body {
   font-weight: 800;
   position: absolute;
   /* margin-left: 0rem; */
-  padding: 4rem 8rem;
+  padding: 8rem 8rem;
 }
 /* ANIMAÇÃO DO TITULO */
 
@@ -174,7 +175,7 @@ body {
   /* position: relative; */
   overflow: hidden;
   margin-bottom: 2rem;
-  padding: 8rem 8rem;
+  padding: 14rem 7.5rem;
 }
 
 #slidestxt>* {
@@ -254,7 +255,7 @@ h2 {
   text-align: center;
   color: #5C079F;
   font-family: 'Roboto Slab';
-  padding: 4rem;
+  padding: 6rem;
 }
 
 .subtitle2 {
@@ -351,9 +352,8 @@ background: #D4B1F1;
   /* position: absolute; */
   /* right: 0px; */
   float: right;
-  margin-top: -5rem ;
-  /* width: 300px; */
-  /* padding: 10px; */
+  /* margin-top: -5rem ; */
+  width: 32rem;
 }
 
 .descricao h2 {
@@ -376,19 +376,21 @@ background: #D4B1F1;
 .descricao span {
   color: #020B0F;
   font-size: 24px;
-  padding: 12rem; 
+  padding: 4rem 12rem; 
   line-height: 35px;  
   display: block;
 }
 
 .btn {
-  /* position: absolute; */
+  position: absolute;
   background: #3F93DF;
   font-size: 18px;
   transition: transform 0.3s ease;
   border: none;
   color: #FFFFFF;
   padding: 1rem 2rem;
+  margin-right: 70rem;
+  margin-bottom: 8rem;
   border-radius: 8px;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
@@ -410,12 +412,12 @@ background: #D4B1F1;
   font-size: 32px;
   text-align: center;
   font-weight: 500;
+  padding: 2rem;
 }
 
-.video video {
-  width: 50vw;
-  height: 50vh;
-  padding-bottom: 6rem;
+.video {
+  max-width: 100%;
+  height: auto;
 }
 
  /* SESSÃO 5 */
@@ -460,16 +462,16 @@ background: #D4B1F1;
 }
 
 .faq img {
-  text-align: left;
-  outline: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8px;
-  gap: 7;
-  padding: 2rem;
+  /* text-align: left; */
+  /* outline: none; */
+  left: 14rem;
+  top: 247rem;
+  position: absolute;
+  /* gap: 7; */
+  /* padding: 2rem;  */
 }
 
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #ccc; 
 }
 
