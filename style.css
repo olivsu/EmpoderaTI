@@ -95,7 +95,7 @@
 }
 
 .navbar__action:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #9641D9;
 }
 
